@@ -1,0 +1,28 @@
+type = "software.database"
+name = "OrientDB"
+description = "Multi-model NoSQL DBMS"
+
+officialWebsiteURL = "https://orientdb.org/"
+officialSourceURL = "https://github.com/orientechnologies/orientdb"
+officialDocumentationURL = "https://orientdb.org/docs/3.0.x/"
+wikipediaURL = "https://en.wikipedia.org/wiki/OrientDB"
+
+licenses = ["Apache-2.0 License"]
+
+madeIn = "Java"
+
+[features]
+
+queryLanguage = "SQL"
+localization = "no"
+# TODO : complete this
+constraints = "yes"
+bulkInsert = "yes"
+tableValuedParameters = "no"
+transaction = "yes"
+userDefinedFunctions = "yes"
+storedProcedures = "no"
+traversing = "yes"
+optionalSchema = "yes"
+pagination = "yes"
+sequences = "yes"

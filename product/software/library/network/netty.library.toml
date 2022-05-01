@@ -1,0 +1,18 @@
+type = "software.library"
+name = "Netty"
+description = "Java implementation of a non-blocking I/O client-server library."
+
+officialWebsiteURL = "https://netty.io/"
+officialSourceURL = "https://github.com/netty/netty/"
+officialDocumentationURL = "https://netty.io/wiki/index.html"
+wikipediaURL = "https://en.wikipedia.org/wiki/Netty_(software)"
+
+madeIn = "Java"
+madeFor = ["JVM"]
+
+[features]
+# TODO : fill in this
+
+[evaluation]
+# TODO : fill in this
+

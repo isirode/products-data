@@ -1,0 +1,25 @@
+type = "software.library"
+name = "Pico"
+description = "Java implementation of a command-line parser."
+
+officialWebsiteURL = "https://picocli.info/"
+officialSourceURL = "https://github.com/remkop/picocli"
+officialDocumentationURL = "https://picocli.info/"
+wikipediaURL = ""
+
+madeIn = "Java"
+madeFor = ["JVM", "native"]
+
+[features]
+arguments = "yes"
+typedArguments = "yes"
+negatableArguments = "yes"
+arrayArguments = "yes"
+mapArguments = "yes"
+subCommands = "yes"
+helper = "yes"
+autoComplete = "yes"
+
+[evaluation]
+# TODO : fill in this
+

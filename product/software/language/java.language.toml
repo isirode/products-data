@@ -1,0 +1,48 @@
+type = "sofware.language"
+name = "Java"
+description = "Typed language used to build "
+
+officialWebsiteURL = "https://www.java.com/fr/"
+officialSourceURL = "unkwown"
+officialDocumentationURL = "https://docs.oracle.com/en/java/javase/17/index.html"
+wikipediaURL = "https://en.wikipedia.org/wiki/Java_(programming_language)"
+
+licenses = ["unclear"]
+propertyOf = "Oracle"
+
+writtenFor = "JVM"
+writtenIn = ["Java", "native"]
+
+imperative = true
+
+[paradigms]
+imperative = true
+functional = true
+generic = true
+objectOriented = true
+classBased = true
+reflective = true
+concurrent = true
+
+[evaluation.reflection.syntaxic]
+canReferenceType = "yes"
+canReferenceClass = "yes"
+canReferenceInterface = "no"
+canReferenceProperties = "no"
+canListProperties = "no"
+
+[evaluation.reflection.programmatic]
+canReferenceType = "yes"
+canReferenceClass = "yes"
+canReferenceInterface = "yes"
+canReferenceProperties = "yes"
+canListProperties = "yes"
+
+[evaluation.exception]
+note = 9
+typedExceptionCatchBlock = "yes"
+finallyBlock = "yes"
+autoCloseableTry = "yes"
+multiCatchBlocks = "yes"
+multiTypeExceptionCatchBlock = "yes"
+checkedException = "yes"

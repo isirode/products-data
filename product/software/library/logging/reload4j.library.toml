@@ -1,0 +1,21 @@
+type = "software.library"
+name = "reload4j"
+description = "Java implementation of a logging framework."
+
+officialWebsiteURL = "https://reload4j.qos.ch/"
+officialSourceURL = "https://github.com/qos-ch/reload4j"
+officialDocumentationURL = "https://reload4j.qos.ch/manual.html"
+wikipediaURL = "https://en.wikipedia.org/wiki/Reload4j"
+
+licenses = ["Apache-2.0 License"]
+propertyOf = "QOS.ch Sarl (Switzerland)"
+
+madeIn = "Java"
+madeFor = ["JVM"]
+
+improvementOf = "Log4j 1.x"
+
+tags = ["Java", "JVM", "logging"]
+
+[features]
+# TODO : fill in this

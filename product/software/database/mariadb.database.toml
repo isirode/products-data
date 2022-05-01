@@ -1,0 +1,23 @@
+type = "sofware.language"
+name = "MariaDB"
+description = "Open source RDBMS using SQL for query language."
+
+officialWebsiteURL = "https://mariadb.org/"
+officialSourceURL = "https://github.com/MariaDB/server"
+officialDocumentationURL = "https://mariadb.org/documentation/"
+wikipediaURL = "https://en.wikipedia.org/wiki/MariaDB"
+
+licenses = ["GPLv2", "LGPLv2.1"]
+forkOf = "MySQL"
+
+[features]
+
+queryLanguage = "SQL"
+localization = "yes"
+# TODO : complete this
+constraints = "yes"
+bulkInsert = "yes"
+tableValuedParameters = "no"
+transaction = "yes"
+userDefinedFunctions = "yes"
+storedProcedures = "yes"

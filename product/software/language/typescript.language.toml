@@ -1,0 +1,41 @@
+type = "software.language"
+name = "TypeScript"
+description = "Typed language used for web applications."
+
+imperative = true
+
+[paradigms]
+imperative = true
+functional = true
+generic = true
+objectOriented = true
+
+[module]
+note = 1
+visibilityDefault = "private"
+visibilityModifiers = "no"
+
+[evaluation.reflection.syntaxic]
+note = 1
+canReferenceType = "poorly"
+canReferenceClass = "no"
+canReferenceInterface = "no"
+canReferenceProperties = "no"
+canListProperties = "no"
+
+[evaluation.reflection.programmatic]
+note = 2
+canReferenceType = "poorly"
+canReferenceClass = "yes"
+canReferenceInterface = "no"
+canReferenceProperties = "poorly"
+canListProperties = "poorly"
+
+[evaluation.exception]
+note = 2
+typedExceptionCatchBlock = "no"
+finallyBlock = "yes"
+autoCloseableTry = "no"
+multiCatchBlocks = "no"
+multiTypeExceptionCatchBlock = "no"
+checkedException = "no"

@@ -1,0 +1,23 @@
+type = "sofware.database"
+name = "MySQL"
+description = "Open source RDBMS using SQL for query language."
+
+propertyOf = "Oracle"
+licenses = ["GPLv2, proprietary"]
+
+officialWebsiteURL = "https://www.mysql.com/"
+officialSourceURL = "https://github.com/mysql/mysql-server"
+officialDocumentationURL = "https://dev.mysql.com/doc/"
+wikipediaURL = "https://en.wikipedia.org/wiki/MySQL"
+
+[features]
+
+queryLanguage = "SQL"
+localization = "barely"
+# TODO : complete this
+constraints = "yes"
+bulkInsert = "yes"
+tableValuedParameters = "no"
+transaction = "yes"
+userDefinedFunctions = "yes"
+storedProcedures = "yes"

@@ -1,0 +1,51 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "title" : "Language",
+  "type" : "object",
+  "additionalProperties" : true,
+  "properties" : {
+    "type" : {
+      "type" : "string",
+      "examples" : [ "software.library", "software.language" ],
+      "description" : "Type of product"
+    },
+    "name" : {
+      "type" : "string",
+      "description" : "Unique identifier of this product"
+    },
+    "description" : {
+      "type" : "string",
+      "description" : "Brief description of this product"
+    },
+    "properties" : {
+      "type" : "object",
+      "additionalProperties" : {
+        "$ref" : "#/definitions/Object"
+      },
+      "description" : "Placeholder for properties, do not use this directly, just setup additional properties normally"
+    },
+    "officialWebsiteURL" : {
+      "type" : "string"
+    },
+    "officialSourceURL" : {
+      "type" : "string"
+    },
+    "officialDocumentationURL" : {
+      "type" : "string"
+    },
+    "wikipediaURL" : {
+      "type" : "string"
+    },
+    "imperative" : {
+      "type" : "boolean"
+    }
+  },
+  "required" : [ "type", "name", "description", "imperative" ],
+  "definitions" : {
+    "Object" : {
+      "type" : "object",
+      "additionalProperties" : true,
+      "properties" : { }
+    }
+  }
+}

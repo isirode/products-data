@@ -1,0 +1,23 @@
+type = "software.library"
+name = "Log4j 1.x"
+description = "Java implementation of a logging framework."
+# Info : even terminated some libraries are still using it
+status = "terminated"
+
+officialWebsiteURL = "https://logging.apache.org/log4j/2.x/index.html"
+officialSourceURL = "https://github.com/apache/logging-log4j1"
+officialDocumentationURL = "https://logging.apache.org/log4j/1.2/manual.html"
+wikipediaURL = "https://en.wikipedia.org/wiki/Log4j"
+
+licenses = ["Apache License 2.0"]
+propertyOf = "QOS.ch Sarl (Switzerland)"
+
+madeIn = "Java"
+madeFor = ["JVM"]
+
+improvementOf = "Log4j 1.x"
+
+tags = ["Java", "JVM", "logging"]
+
+[features]
+# TODO : fill in this

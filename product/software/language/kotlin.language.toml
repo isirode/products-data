@@ -1,0 +1,51 @@
+type = "software.language"
+name = "Kotlin"
+description = "Multi plateform typed language used to create mobile (Android), web and server-side applications."
+
+officialWebsiteURL = "https://kotlinlang.org/"
+officialSourceURL = "https://github.com/jetbrains/kotlin"
+officialDocumentationURL = "https://kotlinlang.org/docs/home.html"
+wikipediaURL = "https://en.wikipedia.org/wiki/Kotlin_(programming_language)"
+
+writtenIn = ["Kotlin"]
+writtenFor = ["JVM", "JavaScript", "native"]
+
+imperative = true
+
+[module]
+note = 8
+visibilityDefault = "public"
+visibilityModifiers = "public, private, internal"
+
+[paradigms]
+imperative = true
+functional = true
+generic = true
+objectOriented = true
+blockStructured = true
+reflective = true
+concurrent = true
+# TODO : check declarative
+
+[evaluation.reflection.syntaxic]
+canReferenceType = "yes"
+canReferenceClass = "yes"
+canReferenceInterface = "yes"
+canReferenceProperties = "yes"
+canListProperties = "yes"
+
+[evaluation.reflection.programmatic]
+canReferenceType = "yes"
+canReferenceClass = "yes"
+canReferenceInterface = "yes"
+canReferenceProperties = "yes"
+canListProperties = "yes"
+
+[evaluation.exception]
+note = 8
+typedExceptionCatchBlock = "yes"
+finallyBlock = "yes"
+autoCloseableTry = "yes"
+multiCatchBlocks = "yes"
+multiTypeExceptionCatchBlock = "no"
+checkedException = "notReally"

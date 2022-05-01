@@ -1,0 +1,18 @@
+type = "software.library"
+name = "Lombok"
+description = "Library providing improvements to the Java language."
+
+officialWebsiteURL = "https://projectlombok.org/"
+officialSourceURL = "https://github.com/projectlombok/lombok"
+officialDocumentationURL = "https://projectlombok.org/features/all"
+wikipediaURL = ""
+
+madeIn = "Java"
+madeFor = ["JVM"]
+
+[features]
+# TODO : fill in this
+
+[evaluation]
+# TODO : fill in this
+

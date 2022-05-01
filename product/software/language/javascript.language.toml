@@ -1,0 +1,63 @@
+type = "software.language"
+name = "JavaScript"
+description = ""
+
+officialWebsiteURL = "https://www.ecma-international.org/publications-and-standards/standards/ecma-262/"
+officialSourceURL = "unkwown"
+officialDocumentationURL = "notExisting"
+wikipediaURL = "https://en.wikipedia.org/wiki/JavaScript"
+
+officialName = "ECMAScript"
+monopoleOn = ["web front-end scripting"]
+
+licenses = ["unclear"]
+trademarkOf = "Oracle"
+
+writtenFor = ["web front-end", "back-end"]
+writtenIn = ["depends of the engine's implementation"]
+
+imperative = true
+
+[paradigms]
+imperative = true
+functional = true
+objectOriented = true
+classOriented = false
+reflective = true
+concurrent = false
+procedural = true
+logical = false
+
+[syntax]
+logical = false
+typing = "weak"
+interface = "no"
+class = "no"
+
+[module]
+note = 2
+
+[evaluation.reflection.syntaxic]
+note = 1
+canReferenceType = "poorly"
+canReferenceClass = "no"
+canReferenceInterface = "no"
+canReferenceProperties = "no"
+canListProperties = "no"
+
+[evaluation.reflection.programmatic]
+note = 1
+canReferenceType = "poorly"
+canReferenceClass = "poorly"
+canReferenceInterface = "no"
+canReferenceProperties = "poorly"
+canListProperties = "poorly"
+
+[evaluation.exception]
+note = 2
+typedExceptionCatchBlock = "no"
+finallyBlock = "yes"
+autoCloseableTry = "no"
+multiCatchBlocks = "no"
+multiTypeExceptionCatchBlock = "no"
+checkedException = "no"

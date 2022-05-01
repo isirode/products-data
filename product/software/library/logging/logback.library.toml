@@ -1,0 +1,21 @@
+type = "software.library"
+name = "logback"
+description = "Java implementation of a logging framework."
+
+officialWebsiteURL = "https://logback.qos.ch/"
+officialSourceURL = "https://github.com/qos-ch/logback"
+officialDocumentationURL = "https://logback.qos.ch/documentation.html"
+wikipediaURL = ""
+
+licenses = ["EPL v1.0", "LGPL 2.1"]
+propertyOf = "QOS.ch Sarl (Switzerland)"
+
+madeIn = "Java"
+madeFor = ["JVM"]
+
+improvementOf = "Log4j 1.x"
+
+tags = ["Java", "JVM", "logging"]
+
+[features]
+# TODO : fill in this

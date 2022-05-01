@@ -1,0 +1,22 @@
+type = "software.library"
+name = "ACL"
+description = "Java implementation of a logging framework, named Apache Commons Logging."
+formerlyNamed = "Jakarta Commons Logging"
+
+officialWebsiteURL = "https://commons.apache.org/proper/commons-logging/"
+officialSourceURL = "https://github.com/apache/commons-logging"
+officialDocumentationURL = "https://commons.apache.org/proper/commons-logging/guide.html"
+wikipediaURL = "https://en.wikipedia.org/wiki/Apache_Commons_Logging"
+
+licenses = ["Apache License 2.0"]
+propertyOf = "unclear"
+
+madeIn = "Java"
+madeFor = ["JVM"]
+
+improvementOf = "Log4j 1.x"
+
+tags = ["Java", "JVM", "logging"]
+
+[features]
+# TODO : fill in this

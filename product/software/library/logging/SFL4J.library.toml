@@ -1,0 +1,21 @@
+type = "software.library"
+name = "SFL4J"
+description = "Java implementation of a logging API."
+
+officialWebsiteURL = "https://www.slf4j.org/"
+officialSourceURL = "https://github.com/qos-ch/slf4j"
+officialDocumentationURL = "https://www.slf4j.org/docs.html"
+wikipediaURL = "https://en.wikipedia.org/wiki/SLF4J"
+
+licenses = ["MIT License"]
+propertyOf = "QOS.ch Sarl (Switzerland)"
+
+madeIn = "Java"
+madeFor = ["JVM"]
+
+improvementOf = "Log4j 1.x"
+
+tags = ["Java", "JVM", "logging"]
+
+[features]
+# TODO : fill in this

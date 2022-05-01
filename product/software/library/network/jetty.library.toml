@@ -1,0 +1,21 @@
+type = "software.library"
+name = "Jetty"
+description = "Java implementation of a web server."
+
+officialWebsiteURL = "https://www.eclipse.org/jetty/"
+officialSourceURL = "https://github.com/eclipse/jetty.project"
+officialDocumentationURL = "https://www.eclipse.org/jetty/documentation.php"
+wikipediaURL = "https://en.wikipedia.org/wiki/Jetty_(web_server)"
+
+licenses = ["Eclipse Public License - v 2.0"]
+propertyOf = "Eclipse Foundation"
+
+madeIn = "Java"
+madeFor = ["JVM"]
+
+[features]
+# TODO : fill in this
+
+[evaluation]
+# TODO : fill in this
+

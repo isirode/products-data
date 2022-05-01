@@ -1,0 +1,17 @@
+{
+  "betterStrongerToml.jsonSchema.associations": [
+    {
+      "pattern": "**/*.product.toml",
+      "schema": "./schemas/product.schema.json"
+    },
+    {
+      "pattern": "**/*.language.toml",
+      "schema": "./schemas/language.schema.json"
+    },
+    {
+      "pattern": "**/*.library.toml",
+      "schema": "./schemas/library.schema.json"
+    }
+  ],
+  "betterStrongerToml.jsonSchema.defaultSchema": "./schemas/product.schema.json"
+}

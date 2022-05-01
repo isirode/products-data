@@ -1,0 +1,27 @@
+type = "software.library"
+name = "kotlinx-cli"
+description = "Kotlin implementation of a command-line parser."
+
+officialWebsiteURL = ""
+officialSourceURL = "https://github.com/Kotlin/kotlinx-cli"
+officialDocumentationURL = ""
+wikipediaURL = ""
+
+madeIn = "Kotlin"
+madeFor = ["JVM"]
+
+[features]
+arguments = "yes"
+typedArguments = "yes"
+negatableArguments = "no"
+arrayArguments = "no"
+mapArguments = "no"
+subCommands = "yes"
+helper = "yes"
+autoComplete = "no"
+
+[evaluation]
+# TODO : fill in this
+documentation = "not up to date"
+
+
